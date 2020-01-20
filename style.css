@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	padding: 40px 0px;
+	margin-bottom: 40px;
+	background-color: #000;
+	color: white;
+}
+.container-fluid .banner  .banner-title{
+	margin: 0 auto;
+}
+.about-us{
+	padding: 5px 65px;
+	text-align: justify;
+}
+.about-us .about-us-title{
+	font-size: 14px;
+}
+.about-us .about-us-head{
+	padding-bottom: 15px;
+}
+.form-content{
+	display: inline;
+}
