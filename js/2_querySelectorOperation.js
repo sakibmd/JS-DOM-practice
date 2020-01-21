@@ -51,10 +51,10 @@
 
 
         var childrenNextFindout = document.querySelector(".product"); //ul er class add
-        childrenNextFindout = childrenNextFindout.children[1].nextElementSibling; //sob gulo li show korbe
-        //console.log(childrenNextFindout);
-        //console.log(childrenNextFindout.textContent);
-        //console.log(childrenNextFindout.parentElement);
+        childrenNextFindout = childrenNextFindout.children[1].nextElementSibling; //index 1 er next ta access pabe
+        //console.log(childrenNextFindout.innerText); //li er vitorer text show korbe
+        console.log(childrenNextFindout.textContent); //li er vitorer text show korbe
+        //console.log(childrenNextFindout.parentElement); //li er parent show korbe
 
 
 
