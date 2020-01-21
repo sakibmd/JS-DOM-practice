@@ -4,14 +4,14 @@
         //console.dir(document);  //all objects gula show korbe
     
         let val = document;
-        val = document.head;  //head er sob info shoe korbe
+        val = document.head;  //head er sob info show korbe
         val = document.title;
         val = document.forms[0];
         //console.log(val);
 
 
         var classAccess = document.getElementsByClassName('product-item'); //same class er sob gulake pabe
-        var classAccess = document.getElementsByClassName('product-item'); //same class index based show korbe
+        var classAccess = document.getElementsByClassName('product-item')[2]; //same class index based show korbe
         //console.log(classAccess);
 
         var idAccess = document.getElementById('main-content'); //ei naam er first id shoe korbe
