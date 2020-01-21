@@ -24,3 +24,11 @@ body{
 .form-content{
 	display: inline;
 }
+.random{
+	background-color: black;
+	color: white;
+}
+.myClass{
+	background-color: red;
+	color: white;
+}
